@@ -1,0 +1,1272 @@
+{
+  "Niveau 1": [
+    {
+      "name": "Affichage de texte, suite d'instructions",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=642",
+      "exercices": [
+        {
+          "name": "Hello world!",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1869"
+        },
+        {
+          "name": "Présentation",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1871"
+        },
+        {
+          "name": "Plan de la montagne",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1870"
+        },
+        {
+          "name": "Dans le fourré",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1872"
+        },
+        {
+          "name": "Empilement de cylindres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1873"
+        },
+        {
+          "name": "Recette secrète",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1874"
+        }
+      ]
+    },
+    {
+      "name": "Répétitions d'instructions",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=643",
+      "exercices": [
+        {
+          "name": "Punition",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1876"
+        },
+        {
+          "name": "Mathématiques de base",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1878"
+        },
+        {
+          "name": "Transport d'eau",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1877"
+        },
+        {
+          "name": "Le secret du Goma",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1879"
+        },
+        {
+          "name": "Sisyphe",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1880"
+        },
+        {
+          "name": "Page d'écriture",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1881"
+        },
+        {
+          "name": "Jeu de dames",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1882"
+        },
+        {
+          "name": "Mont Kailash",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1883"
+        },
+        {
+          "name": "Vendanges",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1884"
+        },
+        {
+          "name": "Le Grand Événement",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1885"
+        }
+      ]
+    },
+    {
+      "name": "Calculs et découverte des variables",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=644",
+      "exercices": [
+        {
+          "name": "Réponds !",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1863"
+        },
+        {
+          "name": "L'éclipse",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1864"
+        },
+        {
+          "name": "Bonbons pour tout le monde !",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=2007"
+        },
+        {
+          "name": "L'algoréathlon",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=528"
+        },
+        {
+          "name": "Cour de récréation",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1886"
+        },
+        {
+          "name": "Une partie de cache-cache",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1888"
+        },
+        {
+          "name": "Progresser par l'erreur",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1887"
+        },
+        {
+          "name": "Décollage de fusée",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1891"
+        },
+        {
+          "name": "Invasion de batraciens",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=2005"
+        },
+        {
+          "name": "Kermesse",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1892"
+        },
+        {
+          "name": "Course avec les enfants",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1893"
+        },
+        {
+          "name": "Construction d'une pyramide",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1894"
+        },
+        {
+          "name": "Table de multiplication",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1895"
+        }
+      ]
+    },
+    {
+      "name": "Lecture de l'entrée",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=843",
+      "exercices": [
+        {
+          "name": "Récoltes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1920"
+        },
+        {
+          "name": "Retraite spirituelle",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=2008"
+        },
+        {
+          "name": "Âge des petits-enfants",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1931"
+        },
+        {
+          "name": "Encore des punitions",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1926"
+        },
+        {
+          "name": "Graduation de thermomètres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1933"
+        },
+        {
+          "name": "Jeu de calcul mental",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1927"
+        },
+        {
+          "name": "La Grande Braderie",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1951"
+        },
+        {
+          "name": "Bétail",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1932"
+        },
+        {
+          "name": "Socles pour statues",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=1934"
+        },
+        {
+          "name": "Le plus beau Karva",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=2009"
+        }
+      ]
+    },
+    {
+      "name": "Tests et conditions",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=646",
+      "exercices": [
+        {
+          "name": "Transport des bagages",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1988"
+        },
+        {
+          "name": "Bornes kilométriques",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1938"
+        },
+        {
+          "name": "Tarifs dégressifs",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1969"
+        },
+        {
+          "name": "Bagarre générale",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1970"
+        },
+        {
+          "name": "Tarif du bateau",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1941"
+        },
+        {
+          "name": "Traversée du pont",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1972"
+        },
+        {
+          "name": "Concours de tir à la corde",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1971"
+        },
+        {
+          "name": "Mot de passe du village",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=646&idTask=1947"
+        }
+      ]
+    },
+    {
+      "name": "Structures avancées",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=647",
+      "exercices": [
+        {
+          "name": "Villes et villages",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1939"
+        },
+        {
+          "name": "Planning de la journée",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1945"
+        },
+        {
+          "name": "Étape la plus longue",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1940"
+        },
+        {
+          "name": "Calcul des dénivelées",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1942"
+        },
+        {
+          "name": "Type d'arbres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1943"
+        },
+        {
+          "name": "Tarifs de l'auberge",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1948"
+        },
+        {
+          "name": "Protection du village",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1946"
+        },
+        {
+          "name": "Le juste prix",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=647&idTask=1944"
+        }
+      ]
+    },
+    {
+      "name": "Conditions avancées, opérateurs booléens",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=648",
+      "exercices": [
+        {
+          "name": "Espion étranger",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1974"
+        },
+        {
+          "name": "Maison de l'espion",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1975"
+        },
+        {
+          "name": "Nombre de jours dans le mois",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1976"
+        },
+        {
+          "name": "Amitié entre gardes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1977"
+        },
+        {
+          "name": "Nombre de personnes à la fête",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1978"
+        },
+        {
+          "name": "Casernes de pompiers",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1979"
+        },
+        {
+          "name": "Personne disparue",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1980"
+        },
+        {
+          "name": "La grande fête",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1981"
+        },
+        {
+          "name": "L'espion est démasqué !",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=1982"
+        },
+        {
+          "name": "Zones de couleurs",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=648&idTask=496"
+        }
+      ]
+    },
+    {
+      "name": "Répétitions conditionnées",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=649",
+      "exercices": [
+        {
+          "name": "Département de médecine : contrôle d'une épidémie",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=649&idTask=2051"
+        },
+        {
+          "name": "Administration : comptes annuels",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=649&idTask=2057"
+        },
+        {
+          "name": "Département de pédagogie : le « c'est plus, c'est moins »",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=649&idTask=2053"
+        },
+        {
+          "name": "Département d'architecture : construction d'une pyramide",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=649&idTask=2052"
+        },
+        {
+          "name": "Département de chimie : mélange explosif",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=649&idTask=2058"
+        }
+      ]
+    }
+  ],
+  "Niveau 2": [
+    {
+      "name": "Nombres à virgules et autres outils",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=650",
+      "exercices": [
+        {
+          "name": "Origami",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1890"
+        },
+        {
+          "name": "Conversions de distances",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1924"
+        },
+        {
+          "name": "Comparatif de prix",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1936"
+        },
+        {
+          "name": "Moyenne des notes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1935"
+        },
+        {
+          "name": "Augmentation de la population",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1706"
+        },
+        {
+          "name": "Construction de maisons",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1708"
+        },
+        {
+          "name": "Soirée orageuse",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=2285"
+        },
+        {
+          "name": "Augmentation des taxes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1996"
+        },
+        {
+          "name": "Achat de livres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1953"
+        },
+        {
+          "name": "Une belle récolte",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=1954"
+        },
+        {
+          "name": "La roue de la fortune",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=650&idTask=2463"
+        }
+      ]
+    },
+    {
+      "name": "Découverte des tableaux",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=651",
+      "exercices": [
+        {
+          "name": "Préparation de l'onguent",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2068"
+        },
+        {
+          "name": "Liste de courses",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2071"
+        },
+        {
+          "name": "Grand inventaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2072"
+        },
+        {
+          "name": "Étude de marché",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2073"
+        },
+        {
+          "name": "Répartition du poids",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2074"
+        },
+        {
+          "name": "Visite de la mine",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2075"
+        },
+        {
+          "name": "Journée des cadeaux",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2079"
+        },
+        {
+          "name": "Course à trois jambes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2078"
+        },
+        {
+          "name": "Banquet municipal",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2080"
+        },
+        {
+          "name": "Choix des emplacements",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=651&idTask=2081"
+        }
+      ]
+    },
+    {
+      "name": "Chaînes de caractères",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=595",
+      "exercices": [
+        {
+          "name": "Petites fiches et gros travail",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2401"
+        },
+        {
+          "name": "Priorité alphabétique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2402"
+        },
+        {
+          "name": "Une ligne sur deux",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2403"
+        },
+        {
+          "name": "Résumés de livres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2404"
+        },
+        {
+          "name": "Lire ou ne pas lire, telle est la question",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2405"
+        },
+        {
+          "name": "Fiches d’inscription",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2406"
+        },
+        {
+          "name": "Analyse de fréquence",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2407"
+        },
+        {
+          "name": "Impression d’étiquettes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=1715"
+        },
+        {
+          "name": "Écriture en miroir",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2409"
+        },
+        {
+          "name": "Inscription d’étudiants",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2410"
+        },
+        {
+          "name": "ngms sns vlls",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2411"
+        },
+        {
+          "name": "La bataille",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2412"
+        },
+        {
+          "name": "Analyse d’une langue",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=2413"
+        },
+        {
+          "name": "Sans espaces",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=595&idTask=449"
+        }
+      ]
+    },
+    {
+      "name": "Fonctions",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=509",
+      "exercices": [
+        {
+          "name": "Code secret deux fois",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=460"
+        },
+        {
+          "name": "Deux codes secrets",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=461"
+        },
+        {
+          "name": "Dentelle",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=577"
+        },
+        {
+          "name": "Motif rectangulaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=581"
+        },
+        {
+          "name": "Le plus petit de deux entiers",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=1717"
+        },
+        {
+          "name": "Phénomène numérique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=637"
+        },
+        {
+          "name": "Distance euclidienne",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=1718"
+        },
+        {
+          "name": "Formes creuses",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=455"
+        },
+        {
+          "name": "Convertisseur d'unités",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=509&idTask=459"
+        }
+      ]
+    },
+    {
+      "name": "Programmer sur son ordinateur",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=561",
+      "exercices": []
+    }
+  ],
+  "Niveau 3": [
+    {
+      "name": "Déblocage du niveau 3",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=656",
+      "exercices": [
+        {
+          "name": "Emprunts de livres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=656&idTask=2273"
+        },
+        {
+          "name": "Fléchettes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=656&idTask=2209"
+        },
+        {
+          "name": "Composition musicale",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=656&idTask=2240"
+        },
+        {
+          "name": "Lissage de signal",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=656&idTask=2278"
+        },
+        {
+          "name": "Course de grenouilles",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=656&idTask=2279"
+        }
+      ]
+    },
+    {
+      "name": "Syntaxes, notions et astuces des langages",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=674",
+      "exercices": []
+    },
+    {
+      "name": "Introduction à la complexité",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=810",
+      "exercices": []
+    },
+    {
+      "name": "Gestion de caractères",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=566",
+      "exercices": [
+        {
+          "name": "Bâtiment et allée",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=2414"
+        },
+        {
+          "name": "Nombre d'amour",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=2415"
+        },
+        {
+          "name": "Majuscules",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=438"
+        },
+        {
+          "name": "Lettre la plus fréquente",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=467"
+        },
+        {
+          "name": "Titres palindromiques",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=2417"
+        },
+        {
+          "name": "Validité des noms de variables",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=458"
+        },
+        {
+          "name": "Fréquences d’apparition",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=566&idTask=2419"
+        }
+      ]
+    },
+    {
+      "name": "Opérations avancées sur les chaînes de caractères",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=556",
+      "exercices": [
+        {
+          "name": "Inversion d’une liste de livres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2422"
+        },
+        {
+          "name": "Trier des livres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2423"
+        },
+        {
+          "name": "Lire ou ne pas lire, telle est (à nouveau) la question",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2424"
+        },
+        {
+          "name": "Inversion de dictionnaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2425"
+        },
+        {
+          "name": "Fréquentation de la bibliothèque",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2458"
+        },
+        {
+          "name": "Conférence et tics de langage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2420"
+        },
+        {
+          "name": "Acronymes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2421"
+        },
+        {
+          "name": "Alphabet",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=451"
+        },
+        {
+          "name": "Consonnes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=1720"
+        },
+        {
+          "name": "Déchiffrement de la première page",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=468"
+        },
+        {
+          "name": "Chiffrement par décalage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2426"
+        },
+        {
+          "name": "Trouver le décalage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=556&idTask=2427"
+        }
+      ]
+    },
+    {
+      "name": "Tableaux avancés",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=564",
+      "exercices": [
+        {
+          "name": "Infographie",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=564&idTask=1792"
+        },
+        {
+          "name": "Carré magique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=564&idTask=469"
+        },
+        {
+          "name": "Attaque du cavalier",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=564&idTask=471"
+        },
+        {
+          "name": "Gomoku",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=564&idTask=470"
+        },
+        {
+          "name": "Érosion",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=564&idTask=1124"
+        }
+      ]
+    },
+    {
+      "name": "Tris simples",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=525",
+      "exercices": [
+        {
+          "name": "Déchets polluants",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=804"
+        },
+        {
+          "name": "Préparation du stock",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=803"
+        },
+        {
+          "name": "Course automobile",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=1791"
+        },
+        {
+          "name": "Tri des données",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=805"
+        },
+        {
+          "name": "Tri des données (bibliothèque)",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=751"
+        },
+        {
+          "name": "Identifier les bacs",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=849"
+        },
+        {
+          "name": "Matières recyclables",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=753"
+        },
+        {
+          "name": "Densité du plastique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=756"
+        },
+        {
+          "name": "Densité la plus proche",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=525&idTask=757"
+        }
+      ]
+    },
+    {
+      "name": "Structures de données élémentaires et Balayages",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=527",
+      "exercices": [
+        {
+          "name": "État du stock",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=355"
+        },
+        {
+          "name": "Dates de péremption",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=356"
+        },
+        {
+          "name": "Distributeur automatique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=357"
+        },
+        {
+          "name": "Carte des cavernes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=2772"
+        },
+        {
+          "name": "Carte de cinéma",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=1796"
+        },
+        {
+          "name": "Hydroélectricité",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=527&idTask=921"
+        }
+      ]
+    },
+    {
+      "name": "Récursivité",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=513",
+      "exercices": [
+        {
+          "name": "Nombre encadré",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=511"
+        },
+        {
+          "name": "0 + 0 = la tête à Toto",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=509"
+        },
+        {
+          "name": "Fractale : triangle de Sierpinski",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=515"
+        },
+        {
+          "name": "Tours de Hanoï",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=516"
+        },
+        {
+          "name": "Entre deux",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=510"
+        },
+        {
+          "name": "Retournement de chaîne",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=513&idTask=513"
+        }
+      ]
+    },
+    {
+      "name": "Efficacité temporelle",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=528",
+      "exercices": [
+        {
+          "name": "Collage d'affiches",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=528&idTask=1351"
+        },
+        {
+          "name": "Plus long palindrome",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=528&idTask=1171"
+        },
+        {
+          "name": "Les bons milieux",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=528&idTask=667"
+        },
+        {
+          "name": "Premier absent",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=528&idTask=1173"
+        }
+      ]
+    },
+    {
+      "name": "Bases",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=565",
+      "exercices": [
+        {
+          "name": "Puissance de 2",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=440"
+        },
+        {
+          "name": "Affichage binaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=441"
+        },
+        {
+          "name": "Lecture binaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=442"
+        },
+        {
+          "name": "Lecture dans une base quelconque",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=1747"
+        },
+        {
+          "name": "Écriture dans une base quelconque",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=1748"
+        },
+        {
+          "name": "Changement de base",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=368"
+        },
+        {
+          "name": "Table de multiplication binaire",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=456"
+        },
+        {
+          "name": "Moyenne hexadécimale",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=565&idTask=457"
+        }
+      ]
+    },
+    {
+      "name": "Exercices d'entraînement du niveau 3",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=761",
+      "exercices": [
+        {
+          "name": "Extension du centre",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=806"
+        },
+        {
+          "name": "Tri automatique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=752"
+        },
+        {
+          "name": "Cartes perforées",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=907"
+        },
+        {
+          "name": "Galerie souterraine",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=1510"
+        },
+        {
+          "name": "Carrés concentriques",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=871"
+        },
+        {
+          "name": "Rallonges audio",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=874"
+        },
+        {
+          "name": "Nombres opposés",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=669"
+        },
+        {
+          "name": "Amis d’amis",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=1125"
+        },
+        {
+          "name": "iPhone Nano",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=1120"
+        },
+        {
+          "name": "Labyrinthe à billes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=1121"
+        },
+        {
+          "name": "Essaim de drones",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=761&idTask=1509"
+        }
+      ]
+    }
+  ],
+  "Niveau 4": [
+    {
+      "name": "Déblocage du niveau 4",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=671",
+      "exercices": [
+        {
+          "name": "Installation du camping",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=671&idTask=2329"
+        },
+        {
+          "name": "Boîtes factorielles",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=671&idTask=2331"
+        },
+        {
+          "name": "Baguenaudier",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=671&idTask=1504"
+        },
+        {
+          "name": "Choisir son manteau",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=671&idTask=2330"
+        }
+      ]
+    },
+    {
+      "name": "Méthodes : coder proprement et efficacement",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=800",
+      "exercices": []
+    },
+    {
+      "name": "Arbres",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=531",
+      "exercices": [
+        {
+          "name": "Retrouver un produit",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=373"
+        },
+        {
+          "name": "Longueur des descriptions",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=375"
+        },
+        {
+          "name": "Carton commun",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=376"
+        },
+        {
+          "name": "Pile de cartons",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=1837"
+        },
+        {
+          "name": "Anti-virus",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=377"
+        },
+        {
+          "name": "Fibre optique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=531&idTask=983"
+        }
+      ]
+    },
+    {
+      "name": "Structures de données et Balayages",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=532",
+      "exercices": [
+        {
+          "name": "Parc d'attraction",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1797"
+        },
+        {
+          "name": "Bentley",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1"
+        },
+        {
+          "name": "Nombreux produits",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=372"
+        },
+        {
+          "name": "Émissions",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1832"
+        },
+        {
+          "name": "Festival de musique",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1800"
+        },
+        {
+          "name": "Peinture",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1798"
+        },
+        {
+          "name": "Fête foraine",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1833"
+        },
+        {
+          "name": "Maisons pour philatélistes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=919"
+        },
+        {
+          "name": "Temps de travail",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=755"
+        },
+        {
+          "name": "Augmenter la fréquentation",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1129"
+        },
+        {
+          "name": "Affectation des salles",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1131"
+        },
+        {
+          "name": "Fermeture annuelle",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=1132"
+        },
+        {
+          "name": "Couvrir des points avec un segment de longueur fixe",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=532&idTask=925"
+        }
+      ]
+    },
+    {
+      "name": "Récursivité avancée",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=530",
+      "exercices": [
+        {
+          "name": "Changement de nom",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=358"
+        },
+        {
+          "name": "Moins de noms",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=359"
+        },
+        {
+          "name": "Choix des cours",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=1834"
+        },
+        {
+          "name": "Expressions parenthésées, crochetées…",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=517"
+        },
+        {
+          "name": "Indenter son code",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=512"
+        },
+        {
+          "name": "Évaluer une expression parenthésée",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=530&idTask=514"
+        }
+      ]
+    },
+    {
+      "name": "Calculs géométriques (1)",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=529",
+      "exercices": [
+        {
+          "name": "Superficie du terrain",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=411"
+        },
+        {
+          "name": "Tour de contrôle",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=412"
+        },
+        {
+          "name": "Repérage des lieux",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=678"
+        },
+        {
+          "name": "Voie ferrée",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=413"
+        },
+        {
+          "name": "Pistes d'atterrissage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=414"
+        },
+        {
+          "name": "Surface de parking",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=415"
+        },
+        {
+          "name": "Sécurité des pistes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=529&idTask=416"
+        }
+      ]
+    },
+    {
+      "name": "Graphes",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=533",
+      "exercices": [
+        {
+          "name": "Compter les chemins vers la sortie",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=245"
+        },
+        {
+          "name": "Tout le labyrinthe est-il accessible ?",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=244"
+        },
+        {
+          "name": "Colorier des zones avec un maximum de couleurs",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=1404"
+        },
+        {
+          "name": "Chercher les zones utilisables de la forêt",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=252"
+        },
+        {
+          "name": "Tourner en rond",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=260"
+        },
+        {
+          "name": "Fermeture du labyrinthe",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=261"
+        },
+        {
+          "name": "Bloquer une route",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=257"
+        },
+        {
+          "name": "Panneaux d'encouragements",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=247"
+        },
+        {
+          "name": "Chemin le plus court",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=248"
+        },
+        {
+          "name": "Baliser le labyrinthe",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=533&idTask=256"
+        }
+      ]
+    },
+    {
+      "name": "Algorithmes semi-numériques (1)",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=534",
+      "exercices": [
+        {
+          "name": "Pioche avec remise",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=478"
+        },
+        {
+          "name": "Pioche de toutes les cartes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=525"
+        },
+        {
+          "name": "Pioche sans remise",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=526"
+        },
+        {
+          "name": "Nombre de paquets",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=366"
+        },
+        {
+          "name": "Découpage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=360"
+        },
+        {
+          "name": "Collage",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=361"
+        },
+        {
+          "name": "Réussite",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=363"
+        },
+        {
+          "name": "Multiplications multiples",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=362"
+        },
+        {
+          "name": "Addition de grands nombres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=378"
+        },
+        {
+          "name": "Soustraction de grands nombres",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=379"
+        },
+        {
+          "name": "Nombres quasi-parfaits",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=534&idTask=668"
+        }
+      ]
+    },
+    {
+      "name": "Graphes implicites (1)",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=535",
+      "exercices": [
+        {
+          "name": "Séquences d'opérations",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=535&idTask=1018"
+        },
+        {
+          "name": "Stage dans les Alpes",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=535&idTask=1843"
+        },
+        {
+          "name": "Grille de couleurs",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=535&idTask=1008"
+        },
+        {
+          "name": "Plus grand rayon laser",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=535&idTask=748"
+        },
+        {
+          "name": "Arbres malades",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=535&idTask=1011"
+        }
+      ]
+    },
+    {
+      "name": "Exercices d'entraînement du niveau 4",
+      "link": "https://www.france-ioi.org/algo/chapter.php?idChapter=762",
+      "exercices": [
+        {
+          "name": "Nombre d'arbustes à planter",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=243"
+        },
+        {
+          "name": "Recherche du plus long chemin",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=246"
+        },
+        {
+          "name": "Carton trop plein",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=374"
+        },
+        {
+          "name": "Multiplications multiples",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=362"
+        },
+        {
+          "name": "Guides touristiques",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=920"
+        },
+        {
+          "name": "Musique d'ambiance",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=1130"
+        },
+        {
+          "name": "Passage de cables",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=1133"
+        },
+        {
+          "name": "Snake",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=981"
+        },
+        {
+          "name": "Carte de retrait",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=749"
+        },
+        {
+          "name": "Parachutisme",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=909"
+        },
+        {
+          "name": "Jackpot",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=1015"
+        },
+        {
+          "name": "Trominos",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=1122"
+        },
+        {
+          "name": "Noeuds d'articulation",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=902"
+        },
+        {
+          "name": "Intervention des pompiers - I",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=906"
+        },
+        {
+          "name": "Intervention des pompiers - II",
+          "link": "https://www.france-ioi.org/algo/task.php?idChapter=762&idTask=910"
+        }
+      ]
+    }
+  ]
+}

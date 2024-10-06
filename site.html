@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>France-IOI – Cours et problèmes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Author" content="Arthur Charguéraud, Mathias Hiron" />
+    <meta name="Description" content="France-IOI – Cours et problèmes" />
+    <script src="../dataSite/js/jquery.js" type="text/javascript"></script>
+    <script
+      src="../dataSite/js/jquery-ui.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../dataSite/js/jquery-migrate-1.0.0.js"
+      type="text/javascript"
+    ></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../dataSite/js/jqueryUI/jquery-ui-1.8.24.custom.css?version=1f0e3dad"
+    />
+    <script type="text/javascript">
+      sSelectedLanguage = "Python";
+    </script>
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: {
+          families: ["Noto Sans:,b,i,bi", "Fira Sans:,b,i,bi"],
+        },
+      };
+      (function (d) {
+        var wf = d.createElement("script"),
+          s = d.scripts[0];
+        wf.src =
+          "https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js";
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shCore.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushCpp.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushOCaml.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushJava.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushPython.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushDelphi.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="../ext/SyntaxHighlighter/scripts/shBrushPlain.js"
+      type="text/javascript"
+    ></script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../ext/SyntaxHighlighter/styles/shCoreFranceIoi.css"
+    />
+    <script type="text/javascript">
+      var $buoop = {
+        reminder: 0,
+        newwindow: true,
+      };
+      $buoop.ol = window.onload;
+      window.onload = function () {
+        try {
+          if ($buoop.ol) $buoop.ol();
+        } catch (e) {}
+        var e = document.createElement("script");
+        e.setAttribute("type", "text/javascript");
+        e.setAttribute("src", "https://browser-update.org/update.js");
+        document.body.appendChild(e);
+      };
+
+      $(function () {
+        if (XRegExp) {
+          var xExec = RegExp.prototype.exec;
+          RegExp.prototype.exec = function (str) {
+            if (!str.slice) str = String(str);
+            return xExec.call(this, str);
+          };
+        }
+      });
+
+      SyntaxHighlighter.defaults.toolbar = false;
+      SyntaxHighlighter.defaults.gutter = false;
+      SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+      var RecaptchaOptions = {
+        lang: "fr",
+      };
+      var idUser = 100479257;
+    </script>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../ext/jquery/jquery.qtip-2.0.0.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="../style.css?v=1f0e3dad" />
+    <script
+      src="../dataSite/js/jquery.qtip.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <header class="headerbox">
+      <a class="banner" href="https://www.france-ioi.org/index.html">
+        <img src="../dataSite/img/logo.png" alt="Logo" />France-IOI
+      </a>
+    </header>
+
+    <nav class="navigbox">
+      <a href="https://www.france-ioi.org/index.html">France-IOI</a>
+      »
+      <a href="https://www.france-ioi.org/algo/chapters.php"
+        >Cours et problèmes</a
+      >
+    </nav>
+
+    <div class="menucol">
+      <aside class="menuLogin">
+        <input
+          id="menuLoginToggle"
+          class="toggleHeaderMobile"
+          type="checkbox"
+        />
+
+        <label for="menuLoginToggle">yann-miquelerdmann</label>
+
+        <div class="menuboxcontents">
+          <a
+            href="https://www.france-ioi.org/user/perso.php?sLogin=yann-miquelerdmann"
+          >
+            Fiche publique
+          </a>
+          <a
+            href="https://www.france-ioi.org/user/redirect.php?action=profile&return_url=https%3A%2F%2Fwww.france-ioi.org%2Falgo%2Fchapters.php"
+          >
+            Mon profil
+          </a>
+          <input id="manageAuthToggle" class="toggleHeader" type="checkbox" />
+          <label for="manageAuthToggle">Authentification</label>
+          <div class="indentedContent">
+            <a
+              href="https://www.france-ioi.org/user/redirect.php?action=password&return_url=https%3A%2F%2Fwww.france-ioi.org%2Falgo%2Fchapters.php"
+            >
+              Changer de mot de passe
+            </a>
+            <a
+              href="https://www.france-ioi.org/user/redirect.php?action=auth_methods&return_url=https%3A%2F%2Fwww.france-ioi.org%2Falgo%2Fchapters.php"
+            >
+              Gérer les méthodes
+            </a>
+          </div>
+          <hr />
+          <a
+            href="https://www.france-ioi.org/user/redirect.php?action=logout&return_url=https%3A%2F%2Fwww.france-ioi.org%2Falgo%2Fchapters.php"
+          >
+            Déconnexion
+          </a>
+          <div class="menu-language-select">
+            Langue :
+            <div>
+              <img src="../dataSite/img/drapeau_fr.png" title="Français" />
+              <a href="chapters.php?sLanguage=es">
+                <img src="../dataSite/img/drapeau_es.png" title="Español" />
+              </a>
+              <a href="chapters.php?sLanguage=en">
+                <img src="../dataSite/img/drapeau_en.png" title="English" />
+              </a>
+              <a href="chapters.php?sLanguage=lt">
+                <img src="../dataSite/img/drapeau_lt.png" title="Lithuanian" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <aside class="menuSitemap">
+        <input
+          id="menuSiteMapToggle"
+          class="toggleHeaderMobile"
+          type="checkbox"
+        />
+        <label for="menuSiteMapToggle">Plan du site</label>
+
+        <h2>Progresser</h2>
+        <div>
+          <a href="https://www.france-ioi.org/algo/chapters.php"
+            >Cours et problèmes</a
+          >
+          <a href="https://www.france-ioi.org/algo/concours.php"
+            >Épreuves de concours</a
+          >
+          <a href="https://www.france-ioi.org/forum/index.php"
+            >Forum d'entraide</a
+          >
+          <a href="https://www.france-ioi.org/algo/rankingMain.php"
+            >Classement</a
+          >
+        </div>
+
+        <h2>Enseigner</h2>
+        <div>
+          <a href="https://www.france-ioi.org/algo/groupsMain.php"
+            >Groupes et classes</a
+          >
+        </div>
+
+        <h2>L'association</h2>
+        <div>
+          <a href="https://www.france-ioi.org/index.html">Site principal</a>
+          <a href="https://www.france-ioi.org/asso/contact/index.html"
+            >Nous contacter</a
+          >
+        </div>
+      </aside>
+      <aside class="menuCommunity">
+        <input
+          id="menuCommunityToggle"
+          class="toggleHeaderMobile"
+          type="checkbox"
+        />
+        <label for="menuCommunityToggle">Communauté</label>
+        <!--
+   <div class="contentCentered">
+        personne connectée   </div>
+-->
+        <h1>Demandes d'aide</h1>
+        <ul>
+          <li>
+            <span class="date" title="07/06/2023 à 19 h 40">2 j.</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=oltunisie"
+                >oltunisie</a
+              >
+              <sup>2025</sup>
+            </div>
+            <div class="taskTitle" title="Chiffrement par décalage">
+              <a
+                href="https://www.france-ioi.org/forum/thread.php?idThread=81737"
+                >Chiffrement par décalage</a
+              >
+            </div>
+          </li>
+        </ul>
+
+        <h1>Problèmes résolus</h1>
+        <ul>
+          <li>
+            <span class="date" title="09/06/2023">11 h 41</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=rakul"
+                >rakul</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Décollage de fusée">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1891"
+                >Décollage de fusée</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 40</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=nellynl"
+                >nellynl</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Sisyphe">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1880"
+                >Sisyphe</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 40</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=loicsimon"
+                >loicsimon</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Jeu de dames">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1882"
+                >Jeu de dames</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 40</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=imran45"
+                >imran45</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="L'éclipse">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1864"
+                >L'éclipse</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 40</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=tym27"
+                >tym27</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div
+              class="taskTitle levelNewbie"
+              title="Bonbons pour tout le monde !"
+            >
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=2007"
+                >Bonbons pour tout le monde !</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=gater59"
+                >gater59</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Présentation">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1871"
+                >Présentation</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=clement825"
+                >clement825</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Recette secrète">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1874"
+                >Recette secrète</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=mgandon"
+                >mgandon</a
+              >
+              <sup>2025</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Vendanges">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=643&idTask=1884"
+                >Vendanges</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a href="https://www.france-ioi.org/user/perso.php?sLogin=rakul"
+                >rakul</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Progresser par l'erreur">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=644&idTask=1887"
+                >Progresser par l'erreur</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=pulaxman"
+                >pulaxman</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Recette secrète">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1874"
+                >Recette secrète</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=armand42"
+                >armand42</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Le plus beau Karva">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=843&idTask=2009"
+                >Le plus beau Karva</a
+              >
+            </div>
+          </li>
+          <li>
+            <span class="date" title="09/06/2023">11 h 39</span>
+            <div>
+              <a
+                href="https://www.france-ioi.org/user/perso.php?sLogin=dbzoneyaiba"
+                >dbzoneyaiba</a
+              >
+              <sup>2023</sup>
+            </div>
+            <div class="taskTitle levelNewbie" title="Empilement de cylindres">
+              <a
+                href="https://www.france-ioi.org/algo/task.php?idChapter=642&idTask=1873"
+                >Empilement de cylindres</a
+              >
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <main>
+      <div class="contentsbox">
+        <h1 class="contentsbox-title">Cours et problèmes</h1>
+        <script>
+          function MyTooltip(selector, html) {
+            $(selector).qtip({
+              content: html,
+              position: {
+                my: "top center",
+                at: "bottom center",
+              },
+              style: {
+                width: 400,
+                classes: "qtip-dark qtip-rounded",
+              },
+              show: {
+                delay: 0,
+              },
+              hide: {
+                effect: "mouseout",
+                fixed: true,
+              },
+            });
+          }
+          $(function () {
+            $("#sLangProgDiv")
+              .buttonset()
+              .change(function () {
+                $("#selectLangage").submit();
+              });
+
+            $("#currentLangProgDiv").removeClass("hide").buttonset();
+
+            $("#currentLangProg").click(function () {
+              $("#divSelectLangProg").toggleClass("hide");
+            });
+
+            $("#sLangProgDiv label").each(function () {
+              var lang = $(this).find("span").text();
+              if (lang == "C++") lang = "Cpp";
+              var text = $("div.PresentationLang[lang=" + lang + "]").html();
+              var war = $("div.langWarning[lang=" + lang + "]").html();
+              if (war !== null && war !== undefined) text += war;
+              if (
+                typeof $("#" + $(this).attr("for")).attr("disabled") !=
+                "undefined"
+              )
+                text = "Cet élément n'est pas disponible pour ce langage.";
+              MyTooltip($(this), text);
+            });
+          });
+        </script>
+        <div id="divSelectLangProg">
+          Voir les cours et résoudre les problèmes en :<br />
+          <form id="selectLangage" action="chapters.php" method="post">
+            <div id="sLangProgDiv">
+              <input
+                type="radio"
+                id="sLangProg-0"
+                name="sLangProg"
+                value="C"
+              /><label for="sLangProg-0">C</label
+              ><input
+                type="radio"
+                id="sLangProg-1"
+                name="sLangProg"
+                value="C++"
+              /><label for="sLangProg-1">C++</label
+              ><input
+                type="radio"
+                id="sLangProg-2"
+                name="sLangProg"
+                value="Pascal"
+              /><label for="sLangProg-2">Pascal</label
+              ><input
+                type="radio"
+                id="sLangProg-3"
+                name="sLangProg"
+                value="OCaml"
+              /><label for="sLangProg-3">OCaml</label
+              ><input
+                type="radio"
+                id="sLangProg-4"
+                name="sLangProg"
+                value="Java"
+              /><label for="sLangProg-4">Java</label
+              ><input
+                type="radio"
+                id="sLangProg-5"
+                name="sLangProg"
+                value="JavaScool"
+              /><label for="sLangProg-5">JavaScool</label
+              ><input
+                type="radio"
+                id="sLangProg-6"
+                name="sLangProg"
+                checked="checked"
+                value="Python"
+              /><label for="sLangProg-6">Python</label>
+            </div>
+          </form>
+        </div>
+        <div class="PresentationLang hide" lang="C">
+          Le C est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impératif</a
+          >
+          conçu pour la programmation système. Inventé au début des années 1970
+          avec UNIX, C est devenu un des langages les plus utilisés. De nombreux
+          langages plus modernes se sont inspirés de sa syntaxe. Il privilégie
+          la performance sur la simplicité de la syntaxe. [<a
+            href="https://fr.wikipedia.org/wiki/C_(langage)"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="PresentationLang hide" lang="Cpp">
+          Le C++ est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impératif</a
+          >. Inventé au début des années 1980, il apporte de nouveaux concepts
+          au langage C (les
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet"
+            >objets</a
+          >, la généricité), le modernise et lui ajoute de nombreuses
+          bibliothèques. C++ est devenu l'un des langages les plus utilisés. Sa
+          performance et sa richesse en font le langage de prédilection pour les
+          concours. [<a
+            href="https://fr.wikipedia.org/wiki/C++_(langage)"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="PresentationLang hide" lang="Pascal">
+          Pascal est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impératif</a
+          >
+          inventé dans les années 1970 dans un but d'enseignement. Quoiqu'encore
+          utilisé à cette fin, l'absence de bibliothèque standard en limite son
+          utilisation malgré une grande efficacité. Sa syntaxe a été reprise par
+          d'autres langages plus modernes avec plus ou moins de succès. [<a
+            href="https://fr.wikipedia.org/wiki/Pascal_(langage)"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="langWarning hide" lang="Pascal">
+          <br /><br /><b>Remarque :</b> Les cours pour ce langage ne sont
+          disponibles que jusqu'au chapitre 4, « Lecture de l'entrée ». Les
+          corrections sont toutefois toujours fournies.
+        </div>
+        <div class="PresentationLang hide" lang="OCaml">
+          OCaml est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_fonctionnelle"
+            target="_blank"
+            >fonctionnel</a
+          >
+          inventé au milieu des années 1990. Il permet aussi une programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impérative</a
+          >
+          ou
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet"
+            >objet</a
+          >. Il permet d'écrire des programmes courts et faciles à vérifier et
+          est ainsi utilisé pour certains systèmes embarqués très sensibles
+          comme ceux des avions. Il est utilisé dans l'enseignement en classes
+          préparatoires aux grandes écoles. [<a
+            href="https://fr.wikipedia.org/wiki/OCaml"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="langWarning hide" lang="OCaml">
+          <br /><br /><b>Remarque :</b> Les cours pour ce langage ne sont
+          disponibles que jusqu'au chapitre 4, « Lecture de l'entrée ». Les
+          corrections sont toutefois toujours fournies.
+        </div>
+        <div class="PresentationLang hide" lang="Java">
+          Java est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impératif</a
+          >
+          et
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet"
+            >orienté objet</a
+          >. Inventé au début des années 1990, il reprend en grande partie la
+          syntaxe du langage C++ tout en la simplifiant, au prix d'une
+          performance un peu moins bonne. S'exécutant dans une
+          <a href="https://fr.wikipedia.org/wiki/Machine_virtuelle_Java"
+            >machine virtuelle</a
+          >, il assure une grande portabilité et ses très nombreuses
+          bibliothèques en font un langage très utilisé. On lui reproche
+          toutefois la « verbosité » de son code. [<a
+            href="https://fr.wikipedia.org/wiki/Java_(langage)"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="langWarning hide" lang="Java">
+          <br /><br /><b>Remarque :</b> Pour un débutant souhaitant apprendre
+          Java, nous conseillons fortement de commencer par JavaScool, plus
+          facile à apprendre, bien que fortement similaire.
+        </div>
+        <div class="PresentationLang hide" lang="JavaScool">
+          Java's Cool (alias JavaScool) est conçu spécifiquement pour
+          l'apprentissage des bases de la programmation. Il reprend en grande
+          partie la syntaxe de Java sur laquelle il s'appuie, mais la simplifie
+          pour un apprentissage plus aisé. La plateforme JavaScool est
+          accompagnée d'un ensemble d'activités diverses de découverte de la
+          programmation. [<a
+            href="https://javascool.gforge.inria.fr/"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <div class="PresentationLang hide" lang="Python">
+          Python est un langage de programmation
+          <a
+            href="https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative"
+            target="_blank"
+            >impératif</a
+          >
+          inventé à la fin des années 1980. Il permet une programmation orientée
+          objet et admet une syntaxe concise et claire qui en font un langage
+          <b>très bien adapté aux débutants</b>. Étant un langage interprété, il
+          n'est cependant pas aussi performant que d'autres langages. [<a
+            href="https://fr.wikipedia.org/wiki/Python_(langage)"
+            target="_blank"
+            >En savoir plus</a
+          >]
+        </div>
+        <script type="text/javascript">
+          $(function () {
+            $("#progressionTabs").tabs().tabs("select", "progression1");
+          });
+        </script>
+        <div id="progressionTabs">
+          <ul>
+            <li><a href="#progression1">Parcours général</a></li>
+            <li><a href="#progression2">Parcours lycée</a></li>
+            <li><a href="#progression3">Méthodes</a></li>
+            <li><a href="#progression4">Problèmes non classés</a></li>
+          </ul>
+          <div id="progression1">
+            <p>
+              Le parcours général permet de progresser à son rythme, en partant
+              des bases de la programmation et en allant jusqu'à un niveau
+              avancé en algorithmique.
+            </p>
+            <p></p>
+            <table class="chapters-list">
+              <tbody>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>Niveau 1</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 01/07/2021 à 22 h 23"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Un parcours semé d&#039;embûches — Chapitre terminé le 01/07/2021 à 22 h 23"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=642"
+                      >1 – Affichage de texte, suite d'instructions</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 01/07/2021 à 23 h 20"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Du soutien au village — Chapitre validé le 01/07/2021 à 23 h 20"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=643"
+                      >2 – Répétitions d'instructions</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 02/07/2021 à 0 h 07"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Nombres et mémoire à l&#039;école — Chapitre validé le 02/07/2021 à 0 h 07"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=644"
+                      >3 – Calculs et découverte des variables</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">13</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">13</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 02/07/2021 à 10 h 54"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Dernière semaine au village — Chapitre terminé le 02/07/2021 à 10 h 54"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=843"
+                      >4 – Lecture de l'entrée</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 02/07/2021 à 11 h 40"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="À la découverte de la planète — Chapitre terminé le 02/07/2021 à 11 h 40"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=646"
+                      >5 – Tests et conditions</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 02/07/2021 à 12 h 26"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Le grand voyage — Chapitre terminé le 02/07/2021 à 12 h 26"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=647"
+                      >6 – Structures avancées</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 28/06/2022 à 9 h 28"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="L&#039;arrivée à la capitale — Chapitre validé le 28/06/2022 à 9 h 28"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=648"
+                      >7 – Conditions avancées, opérateurs booléens</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 27/06/2022 à 22 h 44"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="À l&#039;université — Chapitre validé le 27/06/2022 à 22 h 44"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=649"
+                      >8 – Répétitions conditionnées</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>Niveau 2</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 28/06/2022 à 10 h 32"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Aventures variées — Chapitre validé le 28/06/2022 à 10 h 32"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=650"
+                      >1 – Nombres à virgules et autres outils</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">11</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">11</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 17/10/2022 à 17 h 23"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Voyageur de commerce — Chapitre validé le 17/10/2022 à 17 h 23"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=651"
+                      >2 – Découverte des tableaux</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 17/10/2022 à 21 h 08"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="À la bibliothèque — Chapitre validé le 17/10/2022 à 21 h 08"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=595"
+                      >3 – Chaînes de caractères</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">14</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">14</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 17/10/2022 à 22 h 20"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Les joies du code — Chapitre validé le 17/10/2022 à 22 h 20"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=509"
+                      >4 – Fonctions</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 17/10/2022 à 2 h 00"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Un nouvel environnement — Chapitre terminé le 17/10/2022 à 2 h 00"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=561"
+                      >5 – Programmer sur son ordinateur</a
+                    >
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>Niveau 3</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 29/06/2022 à 15 h 12"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 29/06/2022 à 15 h 12"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=656"
+                      >Déblocage du niveau 3</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 06/07/2022 à 18 h 56"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre validé le 06/07/2022 à 18 h 56"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=674"
+                      >1 – Syntaxes, notions et astuces des langages</a
+                    >
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 18/10/2022 à 2 h 00"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 18/10/2022 à 2 h 00"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=810"
+                      >2 – Introduction à la complexité</a
+                    >
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 18/10/2022 à 12 h 45"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 18/10/2022 à 12 h 45"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=566"
+                      >3 – Gestion de caractères</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">7</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">7</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 19/10/2022 à 10 h 47"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 19/10/2022 à 10 h 47"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=556"
+                      >4 – Opérations avancées sur les chaînes de caractères</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">12</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">12</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 22/10/2022 à 16 h 47"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 22/10/2022 à 16 h 47"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=564"
+                      >5 – Tableaux avancés</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 09/11/2022 à 10 h 32"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre validé le 09/11/2022 à 10 h 32"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=525"
+                      >6 – Tris simples</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 14/11/2022 à 16 h 38"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 14/11/2022 à 16 h 38"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=527"
+                      >7 – Structures de données élémentaires et Balayages</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_validated.png"
+                      title="Chapitre validé le 15/11/2022 à 16 h 26"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre validé le 15/11/2022 à 16 h 26"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=513"
+                      >8 – Récursivité</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 09/11/2022 à 10 h 09 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 09/11/2022 à 10 h 09"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=528"
+                      >9 – Efficacité temporelle</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">2</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 14/11/2022 à 20 h 40"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 14/11/2022 à 20 h 40"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=565"
+                      >10 – Bases</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">8</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read.png"
+                      title="Chapitre commencé le 14/11/2022 à 17 h 28"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 14/11/2022 à 17 h 28"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=761"
+                      >11 – Exercices d'entraînement du niveau 3</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">11</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>Niveau 4</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 01/02/2023 à 10 h 48"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 01/02/2023 à 10 h 48"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=671"
+                      >Déblocage du niveau 4</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_completed.png"
+                      title="Chapitre terminé le 03/02/2023 à 1 h 00"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre terminé le 03/02/2023 à 1 h 00"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=800"
+                      >1 – Méthodes : coder proprement et efficacement</a
+                    >
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 05/06/2023 à 0 h 16 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 05/06/2023 à 0 h 16"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=531"
+                      >2 – Arbres</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 01/02/2023 à 10 h 48 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 01/02/2023 à 10 h 48"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=532"
+                      >3 – Structures de données et Balayages</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">13</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">1</td>
+                  <td class="chapters-list-pbs">résolu</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 05/06/2023 à 9 h 57 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 05/06/2023 à 9 h 57"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=530"
+                      >4 – Récursivité avancée</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">1</td>
+                  <td class="chapters-list-pbs">résolu</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 05/06/2023 à 9 h 45 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 05/06/2023 à 9 h 45"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=529"
+                      >5 – Calculs géométriques (1)</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">7</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 27/02/2023 à 19 h 09 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 27/02/2023 à 19 h 09"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=533"
+                      >6 – Graphes</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read_indisp.png"
+                      title="Chapitre commencé le 09/06/2023 à 11 h 36 — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 09/06/2023 à 11 h 36"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=534"
+                      >7 – Algorithmes semi-numériques (1)</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">11</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">1</td>
+                  <td class="chapters-list-pbs">résolu</td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_unread_indisp.png"
+                      title="Non lu — Indispensable"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=535"
+                      >8 – Graphes implicites (1)</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img
+                      src="../dataSite/img/item_read.png"
+                      title="Chapitre commencé le 03/02/2023 à 21 h 46"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      title="Chapitre commencé le 03/02/2023 à 21 h 46"
+                      href="https://www.france-ioi.org/algo/chapter.php?idChapter=762"
+                      >9 – Exercices d'entraînement du niveau 4</a
+                    >
+                  </td>
+                  <td class="chapters-list-nb">15</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td class="chapters-list-nb">3</td>
+                  <td class="chapters-list-pbs">résolus</td>
+                </tr>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>
+                      Niveau 5
+                      <span class="levelAccessRule">
+                        [Pour débloquer ces exercices, vous devez valider les
+                        chapitres du niveau précédent.]
+                      </span>
+                    </h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >1 – Algorithmes gloutons</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >2 – Diviser pour régner</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">3</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >3 – Arbres binaires</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >4 – Tris efficaces</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">6</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >5 – Plus courts chemins</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >6 – Union-Find</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >7 – Algorithmes semi-numériques (2)</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">9</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >8 – Algorithmes dynamiques</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">7</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >9 – Exercices d'entraînement du niveau 5</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-category" colspan="6">
+                    <h2>
+                      Niveau 6
+                      <span class="levelAccessRule">
+                        [Pour débloquer ces exercices, vous devez valider les
+                        chapitres du niveau précédent.]
+                      </span>
+                    </h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >1 – Graphes implicites (2)</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >2 – Algorithmes dynamiques avancés</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">4</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >3 – Structures de données et balayages avancés</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >4 – Composantes fortement connexes</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">3</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >5 – Calculs géométriques (2)</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">11</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >6 – Flots et couplages</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">10</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="chapters-list-check">
+                    <img src="../dataSite/img/item_locked.png" title="Bloqué" />
+                  </td>
+                  <td>
+                    <span
+                      class="inaccess"
+                      onclick='alert("Pour avoir accès à ce chapitre, résolvez les sujets marqués comme indispensables des épreuves précédentes.")'
+                      >7 – Exercices d'entraînement du niveau 6</span
+                    >
+                  </td>
+                  <td class="chapters-list-nb">5</td>
+                  <td class="chapters-list-pbs">problèmes</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      <div class="bottomBackground"></div>
+    </main>
+  </body>
+</html>
